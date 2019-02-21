@@ -11,10 +11,8 @@ dependencies:
   - msgpack-python=0.6.1
   - curl=7.64
   - python=3.6
-  - xarray=0.11.3
   - zarr=2.2.0 
   - h5py=2.9.0
-  - h5netcdf=0.6.2
   - dask=1.1
   - distributed=1.25.3
   - dask-kubernetes=0.7.0
@@ -38,3 +36,5 @@ dependencies:
   - pip:
     - sat-search==0.2.0
     - dask-labextension==0.3.1
+    - git+https://github.com/scottyhq/xarray.git@fileobj
+    - git+https://github.com/scottyhq/h5netcdf.git@fileobj
