@@ -1,0 +1,1 @@
+* Leaving things completely unpinned can result in lower than anticipated version numbers. For example it looks like ipyleaflet 0.9.2 forces xarray to be downgraded to 0.10.9 (instead of most recent 0.11.3). This is because of the requirements of ipyleaflet on conda-forge which require xarray<0.11
