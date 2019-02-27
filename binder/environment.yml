@@ -4,6 +4,7 @@ channels:
 dependencies:
   - conda=4.6.3
   - nomkl
+  - fsspec=0.2.0
   - s3fs=0.2.0
   - gcsfs=0.2.0
   - intake=0.4.1
@@ -23,6 +24,7 @@ dependencies:
   - graphviz=2.38
   - jupyterlab=0.35.4
   - libgdal=2.4.0
+  - netcdf4=1.4.2
   - boto3=1.9.91
   - hvplot=0.4.0
   - geoviews-core=1.6.2
