@@ -37,6 +37,6 @@ dependencies:
   - pip:
     - sat-search==0.2.0
     - dask-labextension==0.3.1
-    - https://github.com/dask/dask-kubernetes@dev
+    - git+https://github.com/dask/dask-kubernetes.git@dev
     - git+https://github.com/scottyhq/xarray.git@fileobj
     - git+https://github.com/scottyhq/h5netcdf.git@fileobj
