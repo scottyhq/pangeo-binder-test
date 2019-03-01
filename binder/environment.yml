@@ -16,7 +16,6 @@ dependencies:
   - h5py=2.9.0
   - dask=1.1
   - distributed=1.25.3
-  - dask-kubernetes=0.7.0
   - matplotlib=3.0
   - nbserverproxy=0.8.8
   - jupyter=1.0.0
@@ -38,5 +37,6 @@ dependencies:
   - pip:
     - sat-search==0.2.0
     - dask-labextension==0.3.1
+    - https://github.com/dask/dask-kubernetes@dev
     - git+https://github.com/scottyhq/xarray.git@fileobj
     - git+https://github.com/scottyhq/h5netcdf.git@fileobj
