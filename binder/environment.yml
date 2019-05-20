@@ -1,0 +1,8 @@
+name: pangeo
+channels:
+  - conda-forge
+dependencies:
+  - rasterio
+  - pip
+  - pip:
+    - rio-cogeo
