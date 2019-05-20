@@ -16,7 +16,6 @@ conda config --set show_channel_urls True --system
 # New environments to user home directory
 conda config --append envs_dirs /home/jovyan/my-conda-envs/ --system
 conda config --set auto_activate_base False --system
-conda config --set update_dependencies True --system
 
 # Install these packages by default when using `conda create`
 conda config --append create_default_packages ipykernel \
