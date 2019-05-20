@@ -1,11 +1,19 @@
 #!/bin/bash
+set -euo pipefail
 
-jupyter serverextension enable --py nbserverproxy --sys-prefix
-jupyter labextension install @jupyter-widgets/jupyterlab-manager \
-                             @jupyterlab/hub-extension \
-                             @pyviz/jupyterlab_pyviz \
-                             jupyter-leaflet \
-                             dask-labextension
+# serverextensions
+jupyter serverextension enable --sys-prefix --py nbserverproxy
+# nbextensions
+jupyter nbextension enable --sys-prefix --py widgetsnbextension
 
+# labextensions
+jupyter labextension install dask-labextension@0.3.0 \
+                             @jupyter-widgets/jupyterlab-manager \
+                             @jupyterlab/hub-extension
+                             
 
-#EOF
+# dask config
+# ${KERNEL_PYTHON_PREFIX} is set by repo2docker to sys.prefix
+# of the python that the kernel is run in.
+mkdir -p ${KERNEL_PYTHON_PREFIX}/etc/dask
+cp binder/dask_config.yaml ${KERNEL_PYTHON_PREFIX}/etc/dask/dask.yaml
