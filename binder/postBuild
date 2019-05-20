@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## This section allows for persistant and custom user conda environments
 # From: https://gist.github.com/ocefpaf/863fc5df6ed8444378fbb1211ad8feb1
 
@@ -22,3 +24,5 @@ conda config --append create_default_packages ipykernel \
              --append create_default_packages "blas=*=openblas"  \ # help with the mkl vs openblas issue
              --system
 
+
+#EOF
