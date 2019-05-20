@@ -1,0 +1,24 @@
+## This section allows for persistant and custom user conda environments
+# From: https://gist.github.com/ocefpaf/863fc5df6ed8444378fbb1211ad8feb1
+
+# Add conda-forge,
+conda config --add channels conda-forge --system
+conda config --set channel_priority strict --system
+conda config --set show_channel_urls True --system
+
+# Make conda faster.
+#conda install pycryptosat --yes 
+#conda config --set sat_solver pycryptosat
+#conda config --set safety_checks disabled
+
+# New environments to user home directory
+conda config --append envs_dirs /home/jovyan/my-conda-envs/ --system
+conda config --set auto_activate_base False --system
+conda config --set update_dependencies True --system
+
+# Install these packages by default when using `conda create`
+conda config --append create_default_packages ipykernel \
+             --append create_default_packages pip \
+             --append create_default_packages "blas=*=openblas"  \ # help with the mkl vs openblas issue
+             --system
+
