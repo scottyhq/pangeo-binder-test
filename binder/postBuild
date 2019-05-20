@@ -18,9 +18,10 @@ conda config --system --append envs_dirs /home/jovyan/my-conda-envs/
 conda config --system --set auto_activate_base False
 
 # Install these packages by default when using `conda create`
+# help with the mkl vs openblas issue (not sure what that is!)
 conda config --system --append create_default_packages ipykernel \
                       --append create_default_packages pip \
-                      --append create_default_packages "blas=*=openblas"  \ # help with the mkl vs openblas issue
+                      --append create_default_packages "blas=*=openblas"
 
 
 #EOF
