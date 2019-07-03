@@ -1,1 +1,1 @@
-FROM pangeo/base-notebook-onbuild:2019.05.23
+FROM scottyhq/pangeo-nasa-asp:latest
