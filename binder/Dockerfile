@@ -1,1 +1,1 @@
-FROM scottyhq/pangeo-nasa-asp:latest
+FROM scottyhq/pangeo-nasa-asp:2019.07.03
