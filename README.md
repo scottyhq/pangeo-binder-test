@@ -6,4 +6,5 @@ https://github.com/scottyhq/pangeo-binder-test/blob/pangeo-base/binder/Dockerfil
 
 will always pull the latest image. BUT! The build is linked to a git commit, so you must make a change to something (add a datestamp to this readme?) to re-trigger a pull.
 
-last pulled: June 24, 2019
+
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://binder.pangeo.io/v2/gh/scottyhq/pangeo-binder-test/pangeo-base?urlpath=lab)
