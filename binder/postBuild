@@ -1,13 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-# serverextensions
-jupyter serverextension enable --sys-prefix jupyter_server_proxy
-# no longer needed? https://ipywidgets.readthedocs.io/en/stable/user_install.html
-jupyter nbextension enable --sys-prefix --py widgetsnbextension
-
-# labextensions
-
 jupyter labextension install dask-labextension \
                              @jupyter-widgets/jupyterlab-manager \
                              @jupyterlab/hub-extension
