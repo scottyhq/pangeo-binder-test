@@ -1,0 +1,11 @@
+jupyter
+jupyterlab
+jupyterhub
+tornado
+bokeh
+dask
+dask-kubernetes
+jupyter-server-proxy
+ipywidgets
+graphviz
+dask-labextension
