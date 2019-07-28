@@ -6,5 +6,7 @@ dependencies:
   - jupyterlab=1
   - dask=2
   - dask-kubernetes=0.9
-  - dask-labextension=1
   - graphviz
+  - pip
+  - pip:
+    - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
