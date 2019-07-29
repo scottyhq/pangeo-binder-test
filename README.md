@@ -1,10 +1,7 @@
-# pangeo-binder-test
-a place to test nasa binder examples with the latest python packages
+# Launch on Mybinder.org
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/pangeo-binder-test/pangeo-base?urlpath=lab)
 
-NOTE: you might think that specifying `FROM pangeo/base-notebook:latest` in the Dockerfile:
-https://github.com/scottyhq/pangeo-binder-test/blob/pangeo-base/binder/Dockerfile
-
-will always pull the latest image. BUT! The build is linked to a git commit, so you must make a change to something (add a datestamp to this readme?) to re-trigger a pull.
+# Launch on Pangeo Binder
 
 [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/scottyhq/pangeo-binder-test/pangeo-base?urlpath=lab)
 
