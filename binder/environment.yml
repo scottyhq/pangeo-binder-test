@@ -1,7 +1,0 @@
-# packages in addition to repo2docker/buildpacks/conda/environment.yml
-name: pangeo
-channels:
-  - conda-forge
-dependencies:
-  - dask=2
-  - jupyterhub=1
