@@ -1,1 +1,1 @@
-FROM pangeo/pangeo-notebook:latest
+FROM pangeo/pangeo-notebook:2019-08-08
