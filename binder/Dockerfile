@@ -1,1 +1,1 @@
-FROM pangeo/base-notebook:2019.07.30
+FROM pangeo/base-notebook:2019.08.08
