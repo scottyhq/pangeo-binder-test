@@ -2,10 +2,7 @@ name: esip-tech-dive
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
   - libgdal=2.4
-#  - tornado=5.1.1
-  - nomkl
   - s3fs
   - gcsfs
   - intake
