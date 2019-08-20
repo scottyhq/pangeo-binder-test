@@ -23,5 +23,4 @@ dependencies:
   - geopandas
   - rasterio
   - pip
-  - pip:
-    - sat-search
+  - sat-search
