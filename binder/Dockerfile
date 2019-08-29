@@ -1,1 +1,1 @@
-FROM pangeo/pangeo-notebook:latest
+FROM scottyhq/geohackweek2019:2019-08-01
