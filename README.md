@@ -13,11 +13,10 @@ This repository contains different branches for testing conda environments and d
 [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/scottyhq/pangeo-binder-test/master?urlpath=lab)
 
 
-### You can customize badges!
+#### info on customized badges:
 
 options: https://shields.io
 link creator: https://shields.io/endpoint
 
 [![badge](https://img.shields.io/static/v1.svg?label=Project&message=Jupyter&logo=Jupyter)](https://jupyter.org)
 
-[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io)
