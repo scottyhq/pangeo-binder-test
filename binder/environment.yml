@@ -6,14 +6,14 @@ dependencies:
   - jupyterlab=1
   - jupyterhub=1
   - nbgitpuller=0
-  - dask=2
-  - distributed=2
-  - dask-gateway=0
+  - dask=2.2
+  - distributed=2.2
+  - dask-kubernetes=0.9
+  - dask-gateway=0.2
   - tornado=6
-  - jupyter-server-proxy=1
+  - jupyter-server-proxy=1.1
   - bokeh=1
   - graphviz=2
   - pip=19
   - pip:
-    - git+https://github.com/jacobtomlinson/dask-kubernetes.git@spec-cluster
     - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
