@@ -16,6 +16,8 @@ kubernetes:
   name: dask-{JUPYTERHUB_USER}-{uuid}
   worker-template:
     spec:
+      nodeSelector:
+        dask-worker: True
       restartPolicy: Never
       containers:
         - name: dask-${JUPYTERHUB_USER}
