@@ -2,6 +2,8 @@
 
 This repository contains different branches for testing conda environments and docker images on various binderhubs
 
+The master branch is currently for testing new dask config
+
 
 ### Launch on Mybinder.org
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scottyhq/pangeo-binder-test/master?urlpath=lab)
