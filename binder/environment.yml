@@ -16,5 +16,5 @@ dependencies:
   - pip=19
   - dask-labextension
   - pip:
-    - git+https://github.com/jacobtomlinson/dask-kubernetes.git@spec-cluster
+    - git+https://github.com/dask/dask-kubernetes.git@master
 #    - git+https://github.com/ian-r-rose/dask-labextension.git@de-asyncify#egg=dask_labextension
