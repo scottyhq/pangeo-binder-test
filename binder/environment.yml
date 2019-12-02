@@ -2,7 +2,7 @@ name: esip-tech-dive
 channels:
   - conda-forge
 dependencies:
-  - libgdal=2.4
+  - awscli>=1.16.283
   - s3fs
   - gcsfs
   - intake
