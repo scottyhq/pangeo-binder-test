@@ -2,9 +2,8 @@
 set -euo pipefail
 
 # labextensions
-
-jupyter labextension install @jupyter-widgets/jupyterlab-manager \
-                             dask-labextension  
+jupyter labextension install dask-labextension \
+                             @jupyter-widgets/jupyterlab-manager
                              
 
 # dask config
