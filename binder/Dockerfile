@@ -1,1 +1,1 @@
-FROM pangeo/pangeo-notebook-onbuild:2019.11.25
+FROM uwgda/uwgda-image:latest
