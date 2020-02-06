@@ -1,1 +1,1 @@
-FROM pangeo/pangeo-notebook-onbuild:latest
+FROM pangeo/base-notebook-onbuild:latest
