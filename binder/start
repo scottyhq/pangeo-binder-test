@@ -1,6 +1,0 @@
-#!/bin/bash
-
-export MYENV='test'
-
-# The last line must be 
-exec "$@"
