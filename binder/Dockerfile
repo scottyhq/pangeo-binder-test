@@ -1,1 +1,1 @@
-FROM pangeo/base-notebook-onbuild:2020.02.07-1c213fa
+FROM pangeo/pangeo-notebook:2020.02.08-906577d
