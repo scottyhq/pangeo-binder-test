@@ -1,1 +1,1 @@
-FROM pangeodev/base-image:new
+FROM pangeo/base-image:latest
